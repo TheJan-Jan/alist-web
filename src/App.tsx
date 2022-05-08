@@ -20,7 +20,7 @@ function App() {
           }
         >
           <Switch>
-            <Route path="/@manage/">
+            <Route path="/@TheJan">
               <Manage />
             </Route>
             <Route path="*">
