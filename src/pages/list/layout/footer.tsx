@@ -10,11 +10,10 @@ const Footer = () => {
     <Center py="4" className="footer">
       <VStack>
         <HStack spacing="2" className="line0">
-          <Link isExternal href="">
+          
             {t("TheJan'sCloud {{project}}", { project: "" })}
-          </Link>
-          <span>|</span>
-          <ReactLink to="/TheJan">{t("Manage")}</ReactLink>
+        
+         
         </HStack>
         {getSetting("site beian") && (
           <Link className="line1" isExternal href="https://beian.miit.gov.cn/">
